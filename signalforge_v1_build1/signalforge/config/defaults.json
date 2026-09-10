@@ -1,0 +1,23 @@
+{
+  "supported_formats": [
+    ".wav",
+    ".iq",
+    ".raw"
+  ],
+  "iq": {
+    "dtypes": [
+      "int16",
+      "int32",
+      "float32",
+      "float64"
+    ],
+    "layouts": [
+      "iqiq",
+      "iiqq"
+    ]
+  },
+  "record_policy": {
+    "raw_immutable": true,
+    "derived_processing": true
+  }
+}

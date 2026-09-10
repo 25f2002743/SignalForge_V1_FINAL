@@ -1,0 +1,117 @@
+Pytest status: FAIL (exit 2)
+
+
+==================================== ERRORS ====================================
+[31m[1m_____________________ ERROR collecting tests/test_demod.py _____________________[0m
+[31mImportError while importing test module '/mnt/data/SignalForge_V1_Final/tests/test_demod.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+[1m[31m/usr/lib/python3.13/importlib/__init__.py[0m:88: in import_module
+    [0m[94mreturn[39;49;00m _bootstrap._gcd_import(name[level:], package, level)[90m[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31mtests/test_demod.py[0m:2: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96msignalforge[39;49;00m[04m[96m.[39;49;00m[04m[96mdemod[39;49;00m[04m[96m.[39;49;00m[04m[96mpsk[39;49;00m[90m [39;49;00m[94mimport[39;49;00m bpsk, qpsk[90m[39;49;00m
+[1m[31mE   ModuleNotFoundError: No module named 'signalforge.demod'[0m[0m
+[31m[1m______________________ ERROR collecting tests/test_dsp.py ______________________[0m
+[31mImportError while importing test module '/mnt/data/SignalForge_V1_Final/tests/test_dsp.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+[1m[31m/usr/lib/python3.13/importlib/__init__.py[0m:88: in import_module
+    [0m[94mreturn[39;49;00m _bootstrap._gcd_import(name[level:], package, level)[90m[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31mtests/test_dsp.py[0m:2: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96msignalforge[39;49;00m[04m[96m.[39;49;00m[04m[96mdsp[39;49;00m[04m[96m.[39;49;00m[04m[96mfrequency[39;49;00m[90m [39;49;00m[94mimport[39;49;00m estimate_coarse_cfo[90m[39;49;00m
+[1m[31mE   ModuleNotFoundError: No module named 'signalforge.dsp'[0m[0m
+[31m[1m_______________ ERROR collecting tests/test_fec_deinterleave.py ________________[0m
+[31mImportError while importing test module '/mnt/data/SignalForge_V1_Final/tests/test_fec_deinterleave.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+[1m[31m/usr/lib/python3.13/importlib/__init__.py[0m:88: in import_module
+    [0m[94mreturn[39;49;00m _bootstrap._gcd_import(name[level:], package, level)[90m[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31mtests/test_fec_deinterleave.py[0m:2: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96msignalforge[39;49;00m[04m[96m.[39;49;00m[04m[96mdeinterleave[39;49;00m[04m[96m.[39;49;00m[04m[96mblock[39;49;00m[90m [39;49;00m[94mimport[39;49;00m block_deinterleave[90m[39;49;00m
+[1m[31mE   ModuleNotFoundError: No module named 'signalforge.deinterleave'[0m[0m
+[31m[1m____________________ ERROR collecting tests/test_frames.py _____________________[0m
+[31mImportError while importing test module '/mnt/data/SignalForge_V1_Final/tests/test_frames.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+[1m[31m/usr/lib/python3.13/importlib/__init__.py[0m:88: in import_module
+    [0m[94mreturn[39;49;00m _bootstrap._gcd_import(name[level:], package, level)[90m[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31mtests/test_frames.py[0m:2: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96msignalforge[39;49;00m[04m[96m.[39;49;00m[04m[96mframe[39;49;00m[04m[96m.[39;49;00m[04m[96mpatterns[39;49;00m[90m [39;49;00m[94mimport[39;49;00m find_pattern[90m[39;49;00m
+[1m[31mE   ModuleNotFoundError: No module named 'signalforge.frame'[0m[0m
+[31m[1m__________________ ERROR collecting tests/test_modulation.py ___________________[0m
+[31mImportError while importing test module '/mnt/data/SignalForge_V1_Final/tests/test_modulation.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+[1m[31m/usr/lib/python3.13/importlib/__init__.py[0m:88: in import_module
+    [0m[94mreturn[39;49;00m _bootstrap._gcd_import(name[level:], package, level)[90m[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31mtests/test_modulation.py[0m:3: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96msignalforge[39;49;00m[04m[96m.[39;49;00m[04m[96mobservatory[39;49;00m[04m[96m.[39;49;00m[04m[96mengine[39;49;00m[90m [39;49;00m[94mimport[39;49;00m observe[90m[39;49;00m
+[1m[31mE   ModuleNotFoundError: No module named 'signalforge.observatory'[0m[0m
+[31m[1m__________________ ERROR collecting tests/test_observatory.py __________________[0m
+[31mImportError while importing test module '/mnt/data/SignalForge_V1_Final/tests/test_observatory.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+[1m[31m/usr/lib/python3.13/importlib/__init__.py[0m:88: in import_module
+    [0m[94mreturn[39;49;00m _bootstrap._gcd_import(name[level:], package, level)[90m[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31mtests/test_observatory.py[0m:2: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96msignalforge[39;49;00m[04m[96m.[39;49;00m[04m[96mobservatory[39;49;00m[04m[96m.[39;49;00m[04m[96mplots[39;49;00m[90m [39;49;00m[94mimport[39;49;00m time_domain, spectrum, waterfall, constellation[90m[39;49;00m
+[1m[31mE   ModuleNotFoundError: No module named 'signalforge.observatory'[0m[0m
+[31m[1m__________________ ERROR collecting tests/test_parameters.py ___________________[0m
+[31mImportError while importing test module '/mnt/data/SignalForge_V1_Final/tests/test_parameters.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+[1m[31m/usr/lib/python3.13/importlib/__init__.py[0m:88: in import_module
+    [0m[94mreturn[39;49;00m _bootstrap._gcd_import(name[level:], package, level)[90m[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31mtests/test_parameters.py[0m:3: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96msignalforge[39;49;00m[04m[96m.[39;49;00m[04m[96mobservatory[39;49;00m[04m[96m.[39;49;00m[04m[96mengine[39;49;00m[90m [39;49;00m[94mimport[39;49;00m observe[90m[39;49;00m
+[1m[31mE   ModuleNotFoundError: No module named 'signalforge.observatory'[0m[0m
+[31m[1m_________________ ERROR collecting tests/test_preprocessing.py _________________[0m
+[31mImportError while importing test module '/mnt/data/SignalForge_V1_Final/tests/test_preprocessing.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+[1m[31m/usr/lib/python3.13/importlib/__init__.py[0m:88: in import_module
+    [0m[94mreturn[39;49;00m _bootstrap._gcd_import(name[level:], package, level)[90m[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31mtests/test_preprocessing.py[0m:3: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96msignalforge[39;49;00m[04m[96m.[39;49;00m[04m[96mpreprocessing[39;49;00m[04m[96m.[39;49;00m[04m[96mpipeline[39;49;00m[90m [39;49;00m[94mimport[39;49;00m prepare[90m[39;49;00m
+[1m[31mE   ModuleNotFoundError: No module named 'signalforge.preprocessing.pipeline'[0m[0m
+[31m[1m________________ ERROR collecting tests/test_public_pipeline.py ________________[0m
+[31mImportError while importing test module '/mnt/data/SignalForge_V1_Final/tests/test_public_pipeline.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+[1m[31m/usr/lib/python3.13/importlib/__init__.py[0m:88: in import_module
+    [0m[94mreturn[39;49;00m _bootstrap._gcd_import(name[level:], package, level)[90m[39;49;00m
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[90m[39;49;00m
+[1m[31mtests/test_public_pipeline.py[0m:1: in <module>
+    [0m[94mfrom[39;49;00m[90m [39;49;00m[04m[96msignalforge[39;49;00m[04m[96m.[39;49;00m[04m[96mpipeline[39;49;00m[90m [39;49;00m[94mimport[39;49;00m SignalForgePipeline[90m[39;49;00m
+[1m[31mE   ModuleNotFoundError: No module named 'signalforge.pipeline'[0m[0m
+[36m[1m=========================== short test summary info ============================[0m
+[31mERROR[0m tests/test_demod.py
+[31mERROR[0m tests/test_dsp.py
+[31mERROR[0m tests/test_fec_deinterleave.py
+[31mERROR[0m tests/test_frames.py
+[31mERROR[0m tests/test_modulation.py
+[31mERROR[0m tests/test_observatory.py
+[31mERROR[0m tests/test_parameters.py
+[31mERROR[0m tests/test_preprocessing.py
+[31mERROR[0m tests/test_public_pipeline.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 9 errors during collection !!!!!!!!!!!!!!!!!!!!
+[31m[31m[1m9 errors[0m[31m in 0.17s[0m[0m
+
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 720, in _warm_feature_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 704, in _warm_collaboration_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/generated/interface/models.py", line 32317, in hydrate_crdt_from_proto
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/remote.py", line 749, in __call__
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/client.py", line 150, in call
+artifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.
